@@ -183,7 +183,7 @@ Mouse-less, sight-less, sound-less, colorblind, enlarged text, inverted color, z
 Load, endurance, boundaries, interruptions, starvation etc. Establish numbers and then push them.
 
 ### Chaos Monkey Testing
-Research Netflix's Chaos Monkey and take your queue from the monkey and go nutzo-smasho on some software. You will find a lot of timing bugs this way and cases where errors are shown are a trove of bugs.
+Research Netflix's Chaos Monkey and take your cue from the monkey and go nutzo-smasho on some software. You will find a lot of timing bugs this way and cases where errors are shown are a trove of bugs.
 
 ### Scenario Testing
 Develop use cases and stories. Extract examples from the team, from the support queue and our potential customers. Your stakeholders from all points of entry. As a _$USER_ I need to _$ACTION_ so that I can _$RESULT_.
