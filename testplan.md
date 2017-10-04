@@ -1,5 +1,5 @@
 # App Master Test Plan
-> What is this app? 30K ft view. Make it pithy.  
+> What is this app? 30K ft. view. Make it pithy.  
 
 ## Document Usage Guide
  
@@ -9,7 +9,7 @@
 ##### Responsibilities
 > Provide details of who has the responsibility of delivering different parts of the test plan. Name names. List specific parts of the *testing*.
 
-#####Roles
+##### Roles
 > Give a low down of who is doing what with the project *outside* the scope of testing. Name names. List titles and departments, maybe even contact data. 
 
 ##### Philosophy 
@@ -22,7 +22,7 @@
 > Identify the people and skills needed to deliver the plan. 
 
 ##### Deliverables
-> Expected items from working through this guide. This may include bug reports, updates to the guide itself. Identify what should be delivered as part of this plan including pass/fail reports, performance tracking, customer-ready documents, etc. Every thing that will be turned over to another party. 
+> Expected items from working through this guide. This may include bug reports, updates to the guide itself. Identify what should be delivered as part of this plan including pass/fail reports, performance tracking, customer-ready documents, etc. Everything that will be turned over to another party. 
  
 ##### Environmental needs
 > Are there any special requirements for these tests. You may want to consider things like special hardware, test data or restriction to any system during testing.
@@ -34,7 +34,7 @@
 > State in what circumstances to stop and restart the test. Define clearly. 
 
 ##### Item pass/fail criteria
-> State the acceptable pass / fail criteria. This can be a general criteria or at individual test case level.
+> State the acceptable pass / fail criteria. This can be some general criteria or at individual test case level.
 
 ##### Approach
 > Outline the overall test strategy for this plan, identifying the test process and rules that will be followed. You may also want to include any information about tools, software, or hardware that will be used.
@@ -69,13 +69,13 @@
 ___
 
 ## Testing
-> **Plans, Areas, Methods, Features and Checklists** Testing the app from 10K ft to 0.01 mm away. This is where we start to get our hands dirty. 
+> **Plans, Areas, Methods, Features and Checklists** Testing the app from 10K ft. to 0.01 mm away. This is where we start to get our hands dirty. 
 
 ### Smoke Tests
 Identify and attempt to *automate* the core functions that needs to pass in order for a build to be ready for testing. Perhaps passing unit tests first. Perhaps just confirming the build can open and close. Perhaps any automated tests you have laying around. Figure this out and attach it to the build process.
 
 ### Unit Testing
-Describe any unit testing in the project and how it relates to document user here. Is it attached to the CI server? Is it something the developer only runs locally before they push or merge? What kind of coverage is there between the code and the unit tests. Is only one part or developer involved, etc
+Describe any unit testing in the project and how it relates to document user here. Is it attached to the CI server? Is it something the developer only runs locally before they push or merge? What kind of coverage is there between the code and the unit tests. Is only one part or developer involved, etc.
 
 ### Automated Testing
 Give a census of all automated tests and point to instructions for maintenance or additions. This document is a tool of a black box tester and while they may use tools they are not expected to create and maintain sets of tools for the project.
@@ -84,10 +84,10 @@ Give a census of all automated tests and point to instructions for maintenance o
 Create Read Update Delete. Perhaps this is also automated and attached to the build process. Write a script that will do all in a swoop and also check each action. 
 
 ### Hardware Testing
-Max and minimum supported hardware. Document and test against. CPU, RAM, et al. Make sure to do a check on Virtual Machines (faked hardware) and graphics drivers/cards. You should attempt to do the majority of your testings on a low end device and have a high end device at the ready for reproduction of anomalies. 
+Max and minimum supported hardware. Document and test against. CPU, RAM, et al. Make sure to do a check on Virtual Machines (faked hardware) and graphics drivers/cards. You should attempt to do the majority of your testing on a low-end device and have a high-end device at the ready for reproduction of anomalies. 
 
 ### Input Method Testing
-Keyboard, touchscreen, trackpad, voice, pen, foreign language devices, assistive devices, bluetooth enabled devices, other supported peripherals. Log them and use them in scenarios and domain test cases. 
+Keyboard, touchscreen, trackpad, voice, pen, foreign language devices, assistive devices, Bluetooth enabled devices, other supported peripherals. Log them and use them in scenarios and domain test cases. 
 
 ### Bounds Testing
 Wedging for fun and for profit. Combine known quicktests with domain testing to specifically do boundary analysis testing.
@@ -120,7 +120,7 @@ Checking each and every menu item, contextual menu item, each keyboard shortcut 
 Test each and every internal setting and the features they touch.
 
 ### Internationalization Testing
-How does it handle another locale or language setting. And inputs?
+How does it handle another locale or language setting? And inputs?
 
 ### Localization Testing
 Is the app localized? How does it hold up?
@@ -135,7 +135,7 @@ Exploratory black box testing from non-stakeholders. Outlay your plans here.
 Help guide, about page, getting started – any piece of written stuff that is available in-application.
 
 ### Security Testing
-Buffer overruns? SQL injection? Gatekeeper, signing, sandboxing, injecting, licensing, etc
+Buffer overruns? SQL injection? Gatekeeper, signing, sandboxing, injecting, licensing, etc.
 
 ### Binaries Testing
 Inspect the application bundle in the finder as deep as you are able. Do the same in Xcode and with any known inspection tools you have. Pass a `strings` over it. Try to fiddle with the innards and see if there is anything inappropriate
@@ -150,7 +150,7 @@ Installs, updates and upgrades. Cover un-installations here.
 Any analytics support and confirmation in test/prod.
 
 ### Third Party Tools Testing
-store, Sparkle, TestFlight, frameworks, ad libraries, etc
+store, Sparkle, TestFlight, frameworks, ad libraries, etc.
 
 ### External Obligations Testing
 Are you contractually obligated to show a client logo in certain areas? Do you need to have license credits in the about page? Are you using the correct social media logos?
@@ -208,3 +208,4 @@ Performance vs last public release. Versus last beta, alpha, build, update, etc.
 
 ### Personal Testing
 Identify yourself as a stakeholder, what needs to be tested by you and for you? What are areas you think no one is paying attention to? Document and share and test those items. You have a passion for software quality and are a champion for the product customer, right? What are you doing above and beyond to fight for the end user?
+
