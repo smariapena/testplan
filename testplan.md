@@ -98,7 +98,7 @@ Map each application-specific feature hierarchically and verify performs as expe
 ### UI Testing
 Use a UI touring heuristic to log any UI specific tests and suspect scenarios meant to tickle UI defects. Think: Layouts. Sections. Buttons. etc. Define views and pages and their respective parts. Cover animations & transitions here. Get flows and storyboards so you have known outcomes.
 
-###UX and Usability Testing
+### UX and Usability Testing
 Layouts. Sections. Buttons. etc. Define views and pages and their respective parts. Cover animations & transitions here. Get flows and storyboards so you have known outcomes.
 
 ### Screens Testing
