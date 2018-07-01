@@ -1,75 +1,75 @@
 # App Master Test Plan
-> What is this app? 30K ft. view. Make it pithy.  
+What is this app? 30K ft. view. Very high level
 
 ## Document Usage Guide
  
 ##### Introduction
-> This is where the project mission statement goes. If you don't have one from outside, write your own. Provide an overview of the plan in terms of what the particular project covers. You may briefly mention items such as limitations in resources and budgets, scope of testing and how other activities such as reviews are related. This is just a summary, so keep things short.
+This is where the project mission statement goes. If you don't have one from outside, write your own. Provide an overview of the plan in terms of what the particular project covers. You may briefly mention items such as limitations in resources and budgets, scope of testing and how other activities such as reviews are related. This is just a summary, so keep things short.
 
 ##### Responsibilities
-> Provide details of who has the responsibility of delivering different parts of the test plan. Name names. List specific parts of the *testing*.
+Provide details of who has the responsibility of delivering different parts of the test plan. Name names. List specific parts of the *testing*.
 
 ##### Roles
-> Give a low down of who is doing what with the project *outside* the scope of testing. Name names. List titles and departments, maybe even contact data. 
+Give a low down of who is doing what with the project *outside* the scope of testing. Name names. List titles and departments, maybe even contact data. 
 
 ##### Philosophy 
-> Your overarching testing paradigm if that wasn't covered elsewhere. 
+Your overarching testing paradigm if that wasn't covered elsewhere. 
 
 ##### Assumptions
-> Testing assumptions we will be making. 
+Testing assumptions we will be making. This probably includes dependencies and testability features. 
 
 ##### Staffing and training needs
-> Identify the people and skills needed to deliver the plan. 
+Identify the people and skills needed to deliver the plan. 
 
 ##### Deliverables
-> Expected items from working through this guide. This may include bug reports, updates to the guide itself. Identify what should be delivered as part of this plan including pass/fail reports, performance tracking, customer-ready documents, etc. Everything that will be turned over to another party. 
+Expected items from working through this guide. This may include bug reports, updates to the guide itself. Identify what should be delivered as part of this plan including documentation, pass/fail reports, test cases, session based test management reports, performance tracking, customer facing documents, etc. Everything that will be turned over to another party. 
  
 ##### Environmental needs
-> Are there any special requirements for these tests. You may want to consider things like special hardware, test data or restriction to any system during testing.
+Are there any special requirements for these tests. You may want to consider things like special hardware, test data or restriction to any system during testing. This may include dependencies or other items like CI/CD, infrastructure, test lab access, cloud hosting, etc.
 
 ##### Testing tasks
-> Outline what functional tasks are required with exception to the actual testing. You may want to consider equipment setup along with any administrative tasks.
+Outline what functional tasks are required with exception to the actual testing. You may want to consider equipment setup along with any administrative tasks to account for tester time not spent in test. 
 
 ##### Suspension criteria and resumption requirements
-> State in what circumstances to stop and restart the test. Define clearly. 
+State in what circumstances to stop and restart the test. Define clearly. Perhaps BVT smoke testing invalidates a test session, for example. Or pre-release checklists with a non-zero amount of failures block the release.
 
 ##### Item pass/fail criteria
-> State the acceptable pass / fail criteria. This can be some general criteria or at individual test case level.
+State the acceptable pass / fail criteria. This can be some general criteria or at individual test case level. Some tests failing might be expected during development.
 
 ##### Approach
-> Outline the overall test strategy for this plan, identifying the test process and rules that will be followed. You may also want to include any information about tools, software, or hardware that will be used.
+Outline the overall test strategy for this plan, identifying the test process and rules that will be followed. You may also want to include any information about tools, software, or hardware that will be used.
 
 ##### Test items
-> List the items that will be tested. This could be a software product, system or website. This is the overarching thing we are testing.
+List the items that will be tested. This could be a software product, system or website. This is the overarching thing we are testing.
 
 ##### Features to be tested
-> List the *features* that will be tested and are within the scope of this test plan. This is *broad* don't worry about every tiny feature or sub feature. Those will come later. Will they ever.
+List the *features* that will be tested and are within the scope of this test plan. This is *broad* don't worry about every tiny feature or sub feature. Those will be covered later.
 
 ##### Features not to be tested
-> List the features / requirements that will not be tested and are outside of the scope of this test plan.
+List the features / requirements that will not be tested and are outside of the scope of this test plan.
 
 ##### Resources
-> Project setup and hot links. External tools, test accounts, mock data, knowledge bases. etc. Know your roots. 
+Project setup and links. Oracles. External tools, test accounts, mock data, knowledge bases. etc. 
 
 ##### Schedule
-> Provide a realistic estimate to the time required. Think about sections, tasks, subsections, regression testing and publish intervals. 
+Provide a realistic estimate to the time required. Think about sections, tasks, subsections, regression testing and publish intervals. This should map to an existing project plan. 
  
 ##### Risks and contingencies
-> Identify any known areas that are high risk and may cause delays or disruptions.
+Identify any known areas that are high risk and may cause delays or disruptions.
 
 ##### Approvals & Completions
-> Identify who can approve the completion and what that even means.
+Identify who can approve the completion and what that may mean. 
 
-##### Coverage
+##### General Test Coverage
 > Where is each approach outside of this document covered? Unit testing. Smoke testing. 
 
 ##### Document Maintenance
-> Who how where and when regarding this document. Dropbox, DVCS, alongside the project source?
+Who how where and when regarding this document. Dropbox, DVCS, wiki, confluence, alongside the project source?
 
 ___
 
 ## Testing
-> **Plans, Areas, Methods, Features and Checklists** Testing the app from 10K ft. to 0.01 mm away. This is where we start to get our hands dirty. 
+**Plans, Areas, Methods, Features and Checklists** Testing the app from 10K ft. to 0.01 mm away. This is where we start to get our hands dirty. 
 
 ### Smoke Tests
 Identify and attempt to *automate* the core functions that needs to pass in order for a build to be ready for testing. Perhaps passing unit tests first. Perhaps just confirming the build can open and close. Perhaps any automated tests you have laying around. Figure this out and attach it to the build process.
