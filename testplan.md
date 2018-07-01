@@ -61,7 +61,7 @@ Identify any known areas that are high risk and may cause delays or disruptions.
 Identify who can approve the completion and what that may mean. 
 
 ##### General Test Coverage
-> Where is each approach outside of this document covered? Unit testing. Smoke testing. 
+Where is each approach outside of this document covered? Unit testing. Smoke testing. 
 
 ##### Document Maintenance
 Who how where and when regarding this document. Dropbox, DVCS, wiki, confluence, alongside the project source?
